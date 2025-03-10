@@ -46,6 +46,7 @@ const Contact = () => {
       } else {
         throw new Error('Failed to send message');
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setSubmitStatus('error');
       setSubmitMessage('Sorry, there was an error sending your message. Please try again.');
@@ -120,7 +121,7 @@ const Contact = () => {
                 <h4 className="font-semibold mb-3">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/SulimaAminy" 
+                    href="https://github.com/sulimanaminy" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors"
