@@ -1,6 +1,5 @@
 // import React from 'react';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
-import profileImage from '../assets/img-2.jpg'; // Adjust path as needed
 
 const Hero = () => {
   // Professional headshot from Unsplash
@@ -70,11 +69,11 @@ const Hero = () => {
           <div className="md:w-1/2 mt-10 md:mt-0">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 mx-auto">
-                <img 
-                  src={profileImage}
-                  alt="Suliman Aminy" 
-                  className="w-full h-full object-cover"
-                />
+               <img 
+                src="/assets/img-2.jpg" // Correct path to the image in the public folder
+                alt="Suliman Aminy" 
+                className="w-full h-full object-cover"
+              />
 
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
