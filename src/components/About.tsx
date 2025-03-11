@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Code2, Server, Database, Palette } from 'lucide-react';
 
 const About = () => {

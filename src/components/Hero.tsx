@@ -70,10 +70,11 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 mx-auto">
                <img 
-                src="/assets/img-2.jpg" // Remove "public" from the path
+                src={`${import.meta.env.BASE_URL}assets/img-2.jpg`} 
                 alt="Suliman Aminy" 
                 className="w-full h-full object-cover"
               />
+
 
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
